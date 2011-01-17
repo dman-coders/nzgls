@@ -9,6 +9,7 @@ function nzgls_taxonomy_xml_source_default_items() {
   $settings['FONZ'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'Functions Of New Zealand (FONZ)',
+    'module' => 'features_FONZ',
     'description' => 'A list of topics and classifications used to describe government departments and administrative tasks. Subjects include terms relating to taxation, healthcare, immigration, defense and law. (209 terms)',
     'about' => 'http://www.e.govt.nz/standards/nzgls/thesauri',
     'servicetype' => 'lookup',
@@ -21,6 +22,7 @@ function nzgls_taxonomy_xml_source_default_items() {
   $settings['SONZ'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'Services Of New Zealand (SONZ)',
+    'module' => 'features_SONZ',
     'description' => 'A list of topics and classifications used to describe subjects of interest to government and governemnt agencies. Subjects include terms relating to administration, national affairs, education, infrastructure, law, economics and industry. (1551 terms)',
     'about' => 'http://www.e.govt.nz/standards/nzgls/thesauri',
     'servicetype' => 'lookup',
@@ -33,6 +35,7 @@ function nzgls_taxonomy_xml_source_default_items() {
   $settings['NZGLS.Audience.Category'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'NZGLS Audience Type',
+    'module' => 'features_NZGLS_Audience_Category',
     'description' => 'A list of audience types, recommended by the New Zealand Government for use in government and local body IT management. (21 terms)',
     'about' => 'http://www.e.govt.nz/standards/metadata/standard/nzgls-usage-guide-v2.1',
     'servicetype' => 'lookup',
@@ -45,6 +48,7 @@ function nzgls_taxonomy_xml_source_default_items() {
   $settings['NZGLS.Type.Category'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'NZGLS Document Type',
+    'module' => 'features_NZGLS_Type_Category',
     'description' => 'A list of document and resource types, recommended by the New Zealand Government for use in government and local body IT management. (34 terms)',
     'about' => 'http://www.e.govt.nz/standards/metadata/standard/nzgls-usage-guide-v2.1',
     'servicetype' => 'lookup',
