@@ -15,7 +15,6 @@ function nzgls_taxonomy_xml_source_default_items() {
     'protocol' => 'URI',
     'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/fonz2.30.txt/download',
     'format' => 'csv',
-    'module' => 'features_FONZ',
   );
 
   $settings['SONZ'] = array(
@@ -27,7 +26,6 @@ function nzgls_taxonomy_xml_source_default_items() {
     'protocol' => 'URI',
     'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/sonz150.txt/download',
     'format' => 'csv',
-    'module' => 'features_SONZ',
   );
 
   $settings['NZGLS.Audience.Category'] = array(
@@ -39,7 +37,6 @@ function nzgls_taxonomy_xml_source_default_items() {
     'protocol' => 'URI',
     'pattern' => 'https://spreadsheets.google.com/pub?key=0Ap8cTTsqO2oIdHJGUVNSNHRHMmRkUFR3ZVgyTV9hQkE&hl=en_GB&single=true&gid=0&output=csv',
     'format' => 'csv',
-    'module' => 'features_NZGLS_Audience_Category',
   );
 
   $settings['NZGLS.Type.Category'] = array(
@@ -51,7 +48,6 @@ function nzgls_taxonomy_xml_source_default_items() {
     'protocol' => 'URI',
     'pattern' => 'https://spreadsheets.google.com/pub?key=0Ap8cTTsqO2oIdHJGUVNSNHRHMmRkUFR3ZVgyTV9hQkE&hl=en_GB&single=true&gid=1&output=csv',
     'format' => 'csv',
-    'module' => 'features_NZGLS_Type_Category',
   );
 
   return $settings;
