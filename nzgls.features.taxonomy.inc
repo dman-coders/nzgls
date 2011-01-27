@@ -28,7 +28,7 @@ function nzgls_taxonomy_xml_source_default_items() {
     'format' => 'csv',
   );
 
-  $settings['NZGLS.Audience.Category'] = array(
+  $settings['NZGLS_Audience_Category'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'NZGLS Audience Type',
     'description' => 'A list of audience types, recommended by the New Zealand Government for use in government and local body IT management. (21 terms)',
@@ -39,7 +39,7 @@ function nzgls_taxonomy_xml_source_default_items() {
     'format' => 'csv',
   );
 
-  $settings['NZGLS.Type.Category'] = array(
+  $settings['NZGLS_Type_Category'] = array(
     'provider' => 'New Zealand Government Locator Service (NZGLS)',
     'name' => 'NZGLS Document Type',
     'description' => 'A list of document and resource types, recommended by the New Zealand Government for use in government and local body IT management. (34 terms)',
