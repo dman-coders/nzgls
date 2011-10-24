@@ -13,7 +13,8 @@ function nzgls_taxonomy_xml_source_default_items() {
     'about' => 'http://www.e.govt.nz/standards/nzgls/thesauri',
     'servicetype' => 'lookup',
     'protocol' => 'URI',
-    'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/fonz2.30.txt/download',
+    #'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/fonz2.30.txt/download',
+    'pattern' => 'https://docs.google.com/spreadsheet/pub?hl=en_GB&hl=en_GB&key=0Ap8cTTsqO2oIdHJGUVNSNHRHMmRkUFR3ZVgyTV9hQkE&single=true&gid=3&output=csv',
     'format' => 'csv',
   );
 
@@ -24,7 +25,8 @@ function nzgls_taxonomy_xml_source_default_items() {
     'about' => 'http://www.e.govt.nz/standards/nzgls/thesauri',
     'servicetype' => 'lookup',
     'protocol' => 'URI',
-    'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/sonz150.txt/download',
+    #'pattern' => 'http://www.e.govt.nz/standards/nzgls/thesauri/sonz150.txt/download',
+    'pattern' => 'https://docs.google.com/spreadsheet/pub?hl=en_GB&hl=en_GB&key=0Ap8cTTsqO2oIdHJGUVNSNHRHMmRkUFR3ZVgyTV9hQkE&single=true&gid=4&output=csv',
     'format' => 'csv',
   );
 
