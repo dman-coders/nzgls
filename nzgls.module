@@ -1,3 +1,18 @@
 <?php
 
 // Drupal needs this blank file.
+
+include_once('nzgls.features.taxonomy.inc');
+
+/**
+ * Implementation of hook_enable().
+ * 
+ * Initiate an import when the module is enabled;
+ * It was way to hard to convince features internals to do it on its own.
+ */
+function nzgls_enable() {
+  features_include();
+  module_load_include('inc', 'features', 'features.export');
+  module_load_include('inc', 'taxonomy_xml', 'taxonomy_xml.features');
+  taxonomy_xml_source_features_rebuild('nzgls');
+}
